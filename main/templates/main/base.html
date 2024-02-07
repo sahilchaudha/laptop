@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'main/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'main/css/style.css' %}">
+    <title>Document</title>
+    
+</head>
+<body>
+
+{% comment %} <div class="logo">
+    <img src="{% static 'main/images/%}" alt="">
+
+</div> {% endcomment %}
+
+
+
+    {% include "main/index.html" %}
+    {% include 'main/laptops.html' %}
+    {% include 'main/about.html' %}
+    {% include "main/contact.html" %}
+   
+
+    <script src="{% static 'main/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'main/js/jquery.js' %}"></script>
+    <script src="{% static 'main/js/popper.js' %}"></script>
+</body>
+</html>

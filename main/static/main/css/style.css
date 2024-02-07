@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+ body{
+    background: rgba(0, 0, 0, 0.6);
+    background-size: cover;
+    background-blend-mode: darken;
+   
+} 
+
+.container{
+    margin: auto;
+    padding: 20px;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    color: white;
+
+}
+.container h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    cursor: pointer;
+}
+.container-link{
+    display: flex;
+    
+}
+
+.navbar ul li{
+    /* display: flex; */
+    list-style: none;
+    margin: 0 20px;
+
+}
+.navbar ul li a{
+    padding: 9px;
+    text-decoration: none;
+    color :#fff;
+    font-size: 20px;
+    transition: 1s;
+}
+.navbar ul li a:hover{
+    background-color: rgb(252, 20, 140);
+}
+.content{
+    position: absolute;
+    color: #fff;
+    margin-top: 11%;
+    margin-left: 15%;
+}
+
+.content h1{
+    font-size: 50px;
+}
+
+.search{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 15%;
+}
+
+.search input{
+    padding: 20px;
+    width: 500px;
+    height: 2px;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+}
+
+.submit{
+    position: absolute;
+    margin-top: 26%;
+    margin-left: 28%;
+}
+
+.submit a {
+    padding: 17px 40px;
+    color: #fff;
+    background-color: rgb(252, 20, 140);
+    border-radius: 20px;
+}
+
+        
+    
+#SHET{
+     width: 300px;
+    text-align:left;
+    
+    }
+#forget{
+    text-align: right;
+    }
+#botton{
+width: 100px;
+    color: rgb(37, 11, 234);
+    background-color: red;
+    border-radius: 100px;
+    height: 30px;
+    }
+fieldset{
+     background-color: aliceblue;
+    width: 50px;
+    border-radius: 5px;
+}
+
+#SHET{
+    text-align:left;
+    border-radius: 10px;
+    height: 35px
+}
+
+.username{
+    width: 10px;
+}
+
+.login{
+    height: 20px;
+}
+
+.login_head{
+    color:#5ff414;
+}
+
